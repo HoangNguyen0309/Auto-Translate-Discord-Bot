@@ -9,17 +9,17 @@ if dt1.lang == "ru":
     print("Yay!")
 else:
     print("Not yay :(")
-#import discord
+import discord
 
-#class MyClient(discord.Client):
-#    async def on_ready(self):
+class MyClient(discord.Client):
+    async def on_ready(self):
 #        print('Logged in as')
 #        print(self.user.name)
 #        print(self.user.id)
 #        print('------')
 #    async def on_message(self, message):
 #        #await message.channel.send("bruh bruh bruh")
-#        if message.channel.id == 748216575101763604 :
+#        if message.channel.id == CHANNEL_ID :
 #            print("bruh")
 #            if message.author.id == self.user.id:
 #                return
@@ -34,4 +34,4 @@ else:
 #                await channel.send(final)
 
 #client = MyClient()
-#client.run('ODQ0ODk2NjIxNTAxNzQzMTU0.YKZFSw.tQcKHRC0DhEwy29_8H_sDZ8Y1xg')
+#client.run('TOKEN')
