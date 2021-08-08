@@ -10,7 +10,7 @@ if dt1.lang == "ru":
 else:
     print("Not yay :(")
 import discord
-
+ 
 class MyClient(discord.Client):
     async def on_ready(self):
 #        print('Logged in as')
